@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+    }
+    p{
+        text-align: center;
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+    }
+    h1, h2{
+        text-align: center;
+    }
+    .butt{
+        text-align: center;
+    }
+    h1{
+        background-color: rgb(198, 93, 22);
+        color: white;
+        padding: 20px;
+        margin: 0px;
+        border: 0px;
+    }
+</style>
+<body>
+    <form action="">
+        <h1>Registration Form</h1>
+        <hr>
+    <div class="a">
+        <p>First Name &emsp;<input type="text" id="fname" required></p>&emsp;&emsp;
+        <p>Last Name &emsp;<input type="text" id="lname"></p>
+    </div>
+        <p>Email&emsp;<input type="email" id="email" required></p>
+        <p>Password&emsp;<input type="password" name="password" required></p>
+        <p>Mobile&emsp;<input type="number" maxlength="10" required></p>
+        <p>Date of Birth&emsp;<input type="date" required></p>
+    <div>
+        <h2>Select Gender</h2>
+        <p>Male&emsp;<input type="radio" id="gender" name="gender" required></p>
+        <p>Female&emsp;<input type="radio" id="gender" name="gender" required></p>
+        <p>Other&emsp;<input type="radio" id="gender" name="gender" required></p>
+    </div>
+    <div>
+        <h2>Select Branch</h2>
+        <p>CSE&emsp;<input type="radio" id="branch" name="branch" required></p>
+        <p>ECE&emsp;<input type="radio" id="branch" name="branch" required></p>
+        <p>CIVIL&emsp;<input type="radio" id="branch" name="branch" required></p>
+        <p>MECH&emsp;<input type="radio" id="branch" name="branch" required></p>
+    </div>
+    <p><input type="checkbox" required>&emsp;I agree to all the terms and conditions as specified.</p>
+    <div class="butt">  
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>   
+    </div>
+    </form>
+</body>
+</html>
