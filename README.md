@@ -14,7 +14,7 @@ User Profiles: Manage your bookings, preferences, and history through a personal
 Installation
 To run the Day-to-Day Services Booking System locally, follow these steps:
 
-Clone Repository: git clone https://github.com/your-username/day-to-day-services.git
+Clone Repository: git clone https://github.com/sparsh-01M/MakeSure
 Install Dependencies: cd day-to-day-services and npm install
 Set Up Database: Configure your database credentials in config/database.js
 Run the Application: npm start
